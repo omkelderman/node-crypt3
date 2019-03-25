@@ -1,0 +1,37 @@
+{
+  "name": "crypt3",
+  "version": "1.0.0",
+  "description": "A native wrapper around the crypt(3) C library function",
+  "main": "crypt3.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.15.3"
+  },
+  "scripts": {
+    "test": "eslint .",
+    "install": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omkelderman/node-crypt3.git"
+  },
+  "keywords": [
+    "crypt",
+    "crypt3",
+    "crypt(3)",
+    "native",
+    "password",
+    "hash",
+    "md5",
+    "bcrypt",
+    "sha256",
+    "sha512"
+  ],
+  "author": "Olle Kelderman <omkelderman@gmail.com>",
+  "license": "MIT",
+  "gypfile": true,
+  "bugs": {
+    "url": "https://github.com/omkelderman/node-crypt3/issues"
+  },
+  "homepage": "https://github.com/omkelderman/node-crypt3"
+}
